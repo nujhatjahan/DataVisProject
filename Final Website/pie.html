@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation Lab 1.1" />
+    <meta name="keywords" content="HTML, CSS, D3" />
+    <meta name="author" content="Nujhat Jahan Dripty" />
+
+    <title>Pie</title>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="https://d3js.org/d3.v2.min.js"></script>
+
+    <script src="script/pie.js"></script>
+    <link rel="stylesheet" href="style/pie.css" />
+    <link rel="stylesheet" type="text/css" href="style/home.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="head">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="creator.html">Creators</a></li>
+          
+          </ul>
+        </nav>
+
+        <h1 class="logo">
+          <a href="home.html" class="link">U.S Migration Statistics</a>
+        </h1>
+        <div class="svgNav">
+          <ul>
+            <li><a href="bar.html">Top 10 Country</a></li>
+            <li><a href="line.html">Immigrant Status</a></li>
+            <li><a href="pie.html">Educational Background</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <br />
+    <div class="main">
+      <div class="mainTitle">
+        <h2>Exploring the Diverse Educational Backgrounds of Immigrants in the United States </h2>
+        <p>
+          Let's explore the topic of educational backgrounds among immigrants
+          who arrived in the United States during 2020 through a pie chart
+          visualisation. This section delves into the diverse educational
+          background of individuals who have migrated to the United States.
+          Discover the valuable insights this visualization offers, shedding
+          light on the educational diversity and contributions of immigrants.
+        </p>
+      </div>
+      <div class="container">
+        <div class="frame">
+          <div class="button">
+            <button onclick="showChart()">Show Pie Chart</button>
+            <button onclick="showTable()">Show Table</button>
+          </div>
+
+          <div class="vis">
+            <div id="chartContainer">
+              <div id="chart">
+                <div class="innerCont"></div>
+                <figure>
+                  <figcaption>Educational Backgrounds among immigrants who arrived in the United States during 2020</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <table id="tableContainer" style="display: none">
+            <tr>
+              <th>Education Level</th>
+              <th>Percentage of Immigrants</th>
+            </tr>
+            <tr>
+              <td>Less than 9th Grade</td>
+              <td>16%</td>
+            </tr>
+            <tr>
+              <td>9th-12th Grade</td>
+              <td>9%</td>
+            </tr>
+            <tr>
+              <td>High School Diploma</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>Associate's Degree</td>
+              <td>19%</td>
+            </tr>
+            <tr>
+              <td>Bachelor's Degree or Higher</td>
+              <td>34%</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="mainOutro">
+        <p>
+          The pie chart visualization presents a clear overview of the
+          educational backgrounds of immigrants who arrived in the United States
+          during that year. It reveals the distribution of educational
+          achievements among this group, with different categories represented
+          by individual slices of the pie. In 2020, 34% of immigrants held a
+          Bachelor's Degree or higher, indicating their dedication to advanced
+          education and specialized knowledge. The chart also shows that 19% had
+          an Associate's Degree, 22% completed high school, 9% attended 9th-12th
+          grade, and 16% had less than a 9th-grade education.
+        </p>
+        <p>
+          By examining this visualization, we gain valuable insights into the
+          educational profile of immigrants in 2020, highlighting their diverse
+          educational backgrounds and aspirations. This data underscores the
+          importance of education as a driving force for personal growth,
+          socioeconomic mobility, and the overall enrichment of immigrant
+          communities.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; Nujhat Jahan Dripty & Ashraful Alam Ridoy. <br />
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

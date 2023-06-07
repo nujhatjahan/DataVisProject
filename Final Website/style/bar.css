@@ -1,0 +1,45 @@
+
+  #chart text {
+    fill: black;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+
+#chart {
+    height: 600px;
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+  .innerCont {
+    overflow: auto;
+    top: 100px;
+    left: 400px;
+    height: 91%;
+    width: 100%;
+    /* position: relative; */
+    overflow: hidden;
+  }
+
+  
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    /*stroke: #fff;*/
+    shape-rendering: crispEdges;
+}
+
+body {
+    /*background: #1a1a1a;*/
+    /* color: #eaeaea; */
+    padding: 10px;
+}
+
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}

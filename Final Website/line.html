@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Line Graph</title>
+    <link rel="stylesheet" href="style/line.css" />
+    <link rel="stylesheet" type="text/css" href="style/home.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script/line.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="head">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="creator.html">Creators</a></li>
+        
+          </ul>
+        </nav>
+
+        <h1 class="logo">
+          <a href="home.html" class="link">U.S Migration Statistics</a>
+        </h1>
+        <div class="svgNav">
+          <ul>
+            <li><a href="bar.html">Top 10 Country</a></li>
+            <li><a href="line.html">Immigrant Status</a></li>
+            <li><a href="pie.html">Educational Background</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <br />
+    <div class="main">
+      <div class="mainTitle">
+        <h2>Exploring Immigration Status Trends in the United States
+        </h2>
+        <p>
+          Undertsand the realm of immigration status in the United States from
+          2011-2020, where a line-chart visualization brings clarity to the
+          complex landscape of legal designations. This immersive exploration
+          reveals the purpose and significance of visualizing the data, offering
+          a comprehensive understanding of the diverse experiences and pathways
+          within the immigration system.
+        </p>
+      </div>
+      <div class="vis">
+        <div class="visTitle">
+          <h3>Immigration Status history in the United States (2011-2020)</h3>
+        </div>
+
+        <svg id="bar"></svg>
+        <figure>
+          <figcaption>Line chart visualisation of Immigration Status history in the United States (2011-2020)</figcaption>
+        </figure>
+        <div class="mainOutro">
+          <p>
+            The line-chart visualization presents a timeline spanning from 2011
+            to 2020, offering valuable insights into the changing landscape of
+            immigration status in the United States. Using a line chart, we can
+            observe the line values representing Lawful Immigrants, Refugees,
+            Apprehensions, Noncitizen Removals, and Noncitizen Returns. This
+            visual representation allows us to comprehend the fluctuations and
+            trends in immigration status throughout the specified timeframe. By
+            exploring the lines on the chart, we gain a deeper understanding of
+            the dynamics and changes in each category, providing us with a
+            comprehensive view of the complexities of the immigration system
+            during the 2011-2020 period.
+          </p>
+          <p>
+            For understanding the educational background of immigrants in the
+            United States, visit the <a href="pie.html">"Educational Background"</a> section.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; Nujhat Jahan Dripty & Ashraful Alam Ridoy. <br />
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

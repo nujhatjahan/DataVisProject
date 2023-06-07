@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, D3" />
+    <meta name="author" content="Ashraful Alam Ridoy & Nujhat Jahan Dripty" />
+    <link rel="stylesheet" type="text/css" href="style/home.css" />
+
+    <title>US immigrants</title>
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="creator.html">Creators</a></li>
+            
+          </ul>
+        </nav>
+
+        <h1 class="logo"><a href="home.html" class = "link">U.S Migration Statistics</a></h1>
+
+        <div class="svgNav">
+          <ul>
+            <li><a href="bar.html">Top 10 Countries</a></li>
+            <li><a href="line.html">Immigrant Status</a></li>
+            <li><a href="pie.html">Educational Background</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <br>
+
+
+    <div class="intro">
+      <h2>U.S Immigration Trend Insights</h2>
+      
+      <p>Migration to the United States has left a lasting impression, with individuals from diverse backgrounds embarking on transformative journeys seeking opportunities, refuge, and a better life. In this exploration, we will delve into the origins of migration, shifting trends from 2011 to 2020, immigration status, and the educational backgrounds of immigrants. Through data analysis and visualization, we aim to gain a comprehensive understanding of the experiences, contributions, and pathways within the immigration system, fostering appreciation for the diversity that enriches the United States.</p>
+    </div>
+    <div class="main">
+      <div class="mainTitle">
+        <h2>Exploring the origins of Migration to the U.S</h2>
+        
+        <p>
+          Migration in 2020 left a lasting impression on the United States, as
+          individuals from diverse corners of the world embarked on
+          transformative journeys. Latin America contributed waves of migrants
+          seeking employment and refuge, while Europe added its share of
+          career-driven individuals. The Middle East and Africa witnessed
+          safety-seekers and economic migrants, while Asia's bustling hubs
+          fueled innovation and cultural enrichment.
+        </p>
+      </div>
+      
+      <div class="vis">
+        <div class="visTitle">
+          <h3>U.S Immigrants from around the world in 2020</h3>
+        </div>
+        <!-- Create an element where the map will take place -->
+        <svg id="my_dataviz" width="800" height="600"></svg>
+
+        <figure>
+          <figcaption>Migration to the US in 2020 in a Worldmap</figcaption>
+        </figure>
+
+        
+        <div class="mainOutro">
+          <p>
+            A remarkable world map visualization sheds light on the intricate
+            web of migration. The map employs a color spectrum ranging from
+            white to red to represent informative data. The intensity of the
+            color contrast reflects the number of immigrants from each country,
+            with darker hues indicating higher volumes.
+          </p>
+          
+          <p>
+            To explore the top 10 countries of origin from 2011-2020, visit the
+            <a href="bar.html">"Top 10 countries"</a> section. Gain insights
+            into migration trends, reasons, and the impact of these countries on
+            the United States, shaping its demographic landscape
+          </p>
+        </div>
+      </div>
+      <div class="tooltip" style="opacity: 0"></div>
+
+      <script src="https://d3js.org/d3.v4.js"></script>
+      <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+      <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+      <script src="script/map.js"></script>
+    </div>
+
+   
+    <footer>
+      <div class="footer-content">
+        <p>&copy; Nujhat Jahan Dripty & Ashraful Alam Ridoy. <br>
+        All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

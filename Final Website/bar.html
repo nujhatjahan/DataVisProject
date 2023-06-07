@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Example</title>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="https://d3js.org/d3.v2.min.js"></script>
+    <script src="script/bar.js"></script>
+    <link rel="stylesheet" href="style/bar.css" />
+    <link rel="stylesheet" type="text/css" href="style/home.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="creator.html">Creators</a></li>
+            
+          </ul>
+        </nav>
+
+        <h1 class="logo">
+          <a href="home.html" class="link">U.S Migration Statistics</a>
+        </h1>
+        <div class="svgNav">
+          <ul>
+            <li><a href="bar.html">Top 10 Country</a></li>
+            <li><a href="line.html">Immigrant Status</a></li>
+            <li><a href="pie.html">Educational Background</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <br />
+    <div class="main">
+      <div class="mainTitle">
+        <h2>
+          Exploring the Top 10 Origins and Shifting Migration Trends from
+          2011-2020
+        </h2>
+        <p>
+          The top 10 countries of origin, reflecting the highest number of
+          immigrants, provide valuable insights into diverse migration patterns,
+          fostering understanding and appreciation for the experiences and
+          contributions of immigrants in the United States.
+        </p>
+      </div>
+      <div class="vis">
+        <div class="visTitle">
+          <h3>Top 10 countries of origin from 2011-2020</h3>
+        </div>
+
+        <div class="bar">
+          <div id="chart">
+            <div class="innerCont"></div>
+          </div>
+
+          <figure>
+            <figcaption>
+              Bar Chart showing data of top 10 countries from 2011-2022
+            </figcaption>
+          </figure>
+
+          <br />
+          <div class="mainOutro">
+            <p>
+              Explore the bar chart visualization showcasing the migration
+              patterns from 2011 to 2020. The bars represent the top 10
+              countries, with Mexico leading the list followed by China, India,
+              Cuba, Vietnam, Salvador, South Korea, Jamaica, Haiti, and
+              Colombia. Click on each bar to access yearly data of each country,
+              revealing the fluctuating levels of immigration. This interactive
+              feature provides a visual representation of the diverse origins
+              and contributions of immigrants over the years. Gain insights into
+              the changing landscape of migration, as the bar chart becomes a
+              gateway to understanding the transformative journeys and cultural
+              diversity shaping the United States.
+            </p>
+            <br />
+            <p>
+              Shifting our focus, we now delve into the crucial topics of
+              immigration status and educational background for immigrants in
+              the United States. Visit the <a href="line.html">"Immigration Status"</a> and <a href="pie.html">"Educational
+              Background"</a> sections for detailed information.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; Nujhat Jahan Dripty & Ashraful Alam Ridoy. <br />
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

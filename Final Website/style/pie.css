@@ -1,0 +1,97 @@
+#chart text {
+    fill: black;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    /*stroke: #fff;*/
+    shape-rendering: crispEdges;
+}
+
+body {
+    /*background: #1a1a1a;*/
+    /* color: #eaeaea; */
+    padding: 10px;
+}
+
+path {
+    /* stroke: white; */
+    stroke-width: 3;
+    /* fill: none; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* .frame {
+    width: 900px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+  } */
+
+#chart {
+    height: 600px;
+    width: 900px;
+  }
+  
+  .innerCont {
+    overflow: auto;
+    /* top: 100px;
+    left: 350px; */
+    height: 91%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    opacity: 1;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .button button {
+    background-color: #3191ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .button button:last-child {
+    background-color: #d8296a;
+  }
+  
+  
